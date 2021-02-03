@@ -1,0 +1,89 @@
+body {
+  padding: 2rem;
+  background-color: thistle;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+#logo img {
+  max-width: 30%;
+}
+
+#navBar {
+  margin: 1rem;
+}
+
+#navBar a {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+/*category*/
+
+.category-page main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 500px));
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.category-page main h1 {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.articleType {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.articleType a {
+  text-decoration: none;
+}
+
+.articleType img {
+  max-width: 80%;
+}
+
+.articleName {
+  color: white;
+  font-size: 4rem;
+  margin-top: 10rem;
+}
+
+#Tshirts {
+  background-image: url(images/tshirts-category.jpg);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  border-radius: 0%;
+  max-width: 100%;
+}
+
+#Backpacks {
+  background-image: url(images/tshirts-category.jpg);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  border-radius: 0%;
+  max-width: 100%;
+}
+
+#Jackets {
+  background-image: url(images/tshirts-category.jpg);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  border-radius: 0%;
+  max-width: 100%;
+}
+
+#Shoes {
+  background-image: url(images/tshirts-category.jpg);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  border-radius: 0%;
+  max-width: 100%;
+}
