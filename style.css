@@ -56,7 +56,7 @@ header {
   margin-top: 10rem;
 }
 
-#Tshirts {
+#Accessories {
   background-image: url(images/tshirts-category.jpg);
   background-repeat: no-repeat;
   background-size: 30rem;
@@ -64,7 +64,7 @@ header {
   max-width: 100%;
 }
 
-#Backpacks {
+#Apparel {
   background-image: url(images/tshirts-category.jpg);
   background-repeat: no-repeat;
   background-size: 30rem;
@@ -72,7 +72,7 @@ header {
   max-width: 100%;
 }
 
-#Jackets {
+#Footwear {
   background-image: url(images/tshirts-category.jpg);
   background-repeat: no-repeat;
   background-size: 30rem;
@@ -80,7 +80,7 @@ header {
   max-width: 100%;
 }
 
-#Shoes {
+#FreeItems {
   background-image: url(images/tshirts-category.jpg);
   background-repeat: no-repeat;
   background-size: 30rem;
