@@ -41,10 +41,12 @@
 
       <h1>Apparel</h1>
 
-      <div class="productGrid">
-      <article class="productDisplay onSale">
+      <div id="productGrid">
+
+        <template id="productDisplayTemplate">
+        <article class="productDisplay onSale">
         <a href="../pages/product.html"
-          ><img src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="1165"
+          ><img class="productimage" src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="1165"
         /></a>
         <a href="../pages/product.html"
           ><h2>Mean Team India Cricket Jersey</h2></a
@@ -53,12 +55,13 @@
         <div class="priceDifference">
         <p class="price">1372.25 DKK</p>
         <div class="discounted">
-          <p>2495 DKK</p>
+          <p class="hidden">2495 DKK</p>
         </div>
       </div>
-      </article>
+        </article>
+        </template>
 
-      <article class="productDisplay onSale soldOut">
+        <!--<article class="productDisplay onSale soldOut">
         <a href="../pages/product.html"
           ><img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="1164"
         /></a>
@@ -87,9 +90,9 @@
             <p>4299 DKK</p>
             </div>
           </div>
-          </article>
+        </article>
 
-          <article class="productDisplay">
+        <article class="productDisplay">
             <a href="../pages/product.html"
               ><img src="https://kea-alt-del.dk/t7/images/webp/640/1531.webp" alt="1531"
             /></a>
@@ -100,12 +103,13 @@
             <div class="priceDifference">
             <p class="price">799 DKK</p>
             <div class="discounted">
-              <span>799 DKK</span>
+              <p class="hidden">799 DKK</p>
               </div>
-            </article>
-            </div>
+        </article>-->
+      </div>
         
       </div>
     </main>
+    <script src="../js/productlist.js"></script>
   </body>
 </html>

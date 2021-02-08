@@ -69,7 +69,7 @@ body {
 
 .category-page main {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 500px));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 400px));
   gap: 1rem;
 }
 
@@ -170,7 +170,7 @@ body {
   font-family: BellBottom;
 }
 
-.productGrid {
+#productGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
   gap: 2rem;
@@ -188,7 +188,7 @@ body {
 }
 
 .subtle {
-  color: pink;
+  color: #fb67d9;
   text-align: center;
 }
 
@@ -226,7 +226,11 @@ body {
   text-decoration: line-through;
 }
 
-.product-list article .discounted span {
+.product-list article .discounted .hidden {
+  display: none;
+}
+
+.hidden {
   display: none;
 }
 
