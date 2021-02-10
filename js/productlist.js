@@ -21,7 +21,7 @@ function handleProductList(data) {
 */
 
 function showProduct(product) {
-  console.log(product);
+  // console.log(product);
   //grab the template
   const template = document.querySelector("#productDisplayTemplate").content;
 
@@ -33,6 +33,14 @@ function showProduct(product) {
     ".subtle"
   ).textContent = `${product.articletype} | ${product.brandname}`;
   copy.querySelector("h2").textContent = product.productdisplayname;
+
+  const pLinks = copy.querySelectorAll(".productLink");
+  pLinks.forEach(addNewLink);
+
+  function addNewLink(item) {
+    item.href = `product.html?id=${product.id}`;
+  }
+
   copy.querySelector(".price").textContent = product.price + " DKK";
   copy.querySelector(".hidden").textContent = product.price + " DKK";
   copy.querySelector(
