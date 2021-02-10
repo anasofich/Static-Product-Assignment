@@ -320,6 +320,9 @@ body {
   background-color: hotpink;
   color: white;
   padding: 1rem;
+  font-family: BellBottom;
+  font-weight: 300;
+  font-size: 2rem;
 }
 
 .product-page .discounted {
